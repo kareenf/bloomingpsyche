@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
 }
 .top {
     font-family: 'Handlee', cursive;
@@ -30,6 +31,20 @@ body {
     text-align: center;
     padding: 4em;
 }
+
+/* sign up button */
+input[type=button]{
+    background-color: darkgreen;
+    border: none;
+    width: 25%;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: .5em 0;
+    border-radius: .5em;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+/* button */
 
 /** DROP DOWN NAV BAR */
 ul {
