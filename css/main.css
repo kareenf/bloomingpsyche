@@ -7,10 +7,13 @@ body {
 .top {
     font-family: 'Handlee', cursive;
     font-size: x-large;
-    color: white;
+    color: black;
+    position: relative;
+    top: 3em;
+    left: 1em;
 }
 .title-bg {
-    background: url('../images/vines2.jpg');
+    background: url('../images/vines.png');
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center; /* Center the image */
@@ -18,7 +21,7 @@ body {
     background-size: cover; /* Resize the background image to cover the entire container */
     color: white;
     text-align: center;
-    padding: 4em; /** note: top right bottom left */
+    padding: 12.75em; /** note: top right bottom left */
 }
 .mission {
     background: url('../images/wall.jpg');
